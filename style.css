@@ -1,0 +1,371 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+}
+body{
+background-color: blue;
+
+}
+
+.container{
+/* background-color: blue; */
+display: grid;
+grid-template-rows: 1fr 1fr 1fr;
+grid-template-columns: 1fr 1fr 1fr;
+grid-gap: 20px;
+max-width: 50%;
+height: 80vh;
+padding-top:20px ;
+margin: 0 auto;
+}
+.box1{
+    background-color: antiquewhite;
+    display: grid;
+    grid-template-areas: "boxa boxb boxc"
+    "boxa boxb boxc"
+    "boxa boxb boxc";
+    border: 1px solid black;
+    padding: 3px;
+}
+.boxa{
+    background-color: white;
+    grid-area: boxa;
+    border: 3px solid gray;
+
+}
+.boxb{
+    background-color: white;
+    grid-area: boxb;
+    border: 3px solid gray;
+
+}
+.boxc{
+    background-color: white;
+    grid-area: boxc;
+    border: 3px solid gray;
+
+
+}
+
+.box2{
+    background-color: antiquewhite;
+    display: grid;
+    padding: 3px;
+    grid-template-areas: "bo1 bo2"
+    "bo1 bo3";
+}
+.bo1{
+    background-color: white;
+    grid-area: bo1;
+    border: 3px solid gray;
+}
+.bo2{
+    background-color: white;
+    grid-area: bo2;
+    border: 3px solid gray;
+}
+.bo3{
+    background-color:  white;
+    grid-area: bo3; 
+    
+    border: 3px solid gray;
+}
+.box3{
+    background-color: antiquewhite;
+    display: grid;
+    padding: 3px;
+    grid-template-areas: "a b c"
+    "d e f";
+}
+.a{
+    background-color: white;
+    grid-area: a;
+    border: 3px solid gray;
+}
+.b{
+    background-color: white;
+    grid-area: b;
+    border: 3px solid gray;
+}
+.c{
+    background-color: white;
+    grid-area: c;
+    border: 3px solid gray;
+}
+.d{
+    background-color: white;
+    grid-area: d;
+    border: 3px solid gray;
+}
+.e{
+    background-color: white;
+    grid-area: e;
+    border: 3px solid gray;
+}
+.f{
+    background-color: white;
+    grid-area: f;
+    border: 3px solid gray;
+}
+
+
+.box4{
+    background-color: antiquewhite;
+    display: grid;
+    padding: 3px;
+    grid-template-areas: 
+    "a1 b2 c3"
+    "d4 b2 e5"
+    "d4 f6 e5";
+}
+.a1{
+    background-color: white;
+    grid-area: a1;
+    border: 3px solid gray;
+}
+.b2{
+    background-color: white;
+    grid-area: b2;
+    border: 3px solid gray;
+}
+.c3{
+    background-color: white;
+    grid-area: c3;
+    border: 3px solid gray;
+}
+.d4{
+    background-color: white;
+    grid-area: d4;
+    border: 3px solid gray;
+}
+.e5{
+    background-color: white;
+
+    grid-area: e5;
+    border: 3px solid gray;
+}
+.f6{
+    background-color: white;
+    grid-area: f6;
+    border: 3px solid gray;
+}
+
+.box5{
+    background-color: antiquewhite;
+    display: grid;
+    padding: 3px;
+    grid-template-areas: 
+    "x1 x1 x1 x2 x2 x2"
+    "x3 x3 x4 x4 x5 x5";
+}
+
+.x1{
+    background-color: white;
+    grid-area: x1;
+    border: 3px solid gray;
+}
+.x2{
+    background-color: white;
+    grid-area: x2;
+    border: 3px solid gray;
+}
+.x3{
+    background-color: white;
+    grid-area: x3;
+    border: 3px solid gray;
+}
+.x4{
+    background-color: white;
+    grid-area: x4;
+    border: 3px solid gray;
+}
+.x5{
+    background-color: white;
+    grid-area: x5;
+    border: 3px solid gray;
+}
+.box6{
+    background-color: antiquewhite;
+    display: grid;
+    padding: 3px;
+    grid-template-areas: "y1 y1 y2"
+    "y1 y1 y3"
+    "y4 y5 y6";
+}
+
+.y1{
+    background-color: white;
+    grid-area: y1;
+    border: 3px solid gray;
+}
+.y2{
+    background-color: white;
+    grid-area: y2;
+    border: 3px solid gray;
+}
+.y3{
+    background-color: white;
+    grid-area: y3;
+    border: 3px solid gray;
+}
+.y4{
+    background-color: white;
+    grid-area: y4;
+    border: 3px solid gray;
+}
+.y5{
+    background-color: white;
+    grid-area: y5;
+    border: 3px solid gray;
+}
+
+.y6{
+    background-color: white;
+    grid-area: y6;
+    border: 3px solid gray;
+}
+
+.box7{
+    background-color: antiquewhite;
+    display: grid;
+    padding: 3px;
+    grid-template-areas: 
+    "z1 z1 z2 z2"
+    "z1 z1 z3 z4"
+    "z1 z1 z5 z4"
+    ;
+}
+
+.z1{
+    background-color: white;
+    grid-area: z1;
+    border: 3px solid gray;
+}
+.z2{
+    background-color: white;
+    grid-area: z2;
+    border: 3px solid gray;
+}
+.z3{
+    background-color: white;
+    grid-area: z3;
+    border: 3px solid gray;
+}
+.z4{
+    background-color: white;
+    grid-area: z4;
+    border: 3px solid gray;
+}
+.z5{
+    background-color: white;
+    grid-area: z5;
+    border: 3px solid gray;
+}
+
+.box8{
+    background-color: antiquewhite;
+    display: grid;
+    padding: 3px;
+    grid-template-areas: 
+    "a1 a1 a2 a2 a3"
+    "a1 a1 a2 a2 a4"
+    "a1 a1 a5 a6 a7"
+    ;
+}
+.a1{
+    background-color: white;
+    grid-area: a1;
+    border: 3px solid gray;
+}
+.a2{
+    background-color: white;
+    grid-area: a2;
+    border: 3px solid gray;
+}
+.a3{
+    background-color: white;
+    grid-area: a3;
+    border: 3px solid gray;
+}
+.a4{
+    background-color: white;
+    grid-area: a4;
+    border: 3px solid gray;
+}
+.a5{
+    background-color: white;
+    grid-area: a5;
+    border: 3px solid gray;
+}
+.a6{
+    background-color: white;
+    grid-area: a6;
+    border: 3px solid gray;
+}
+.a7{
+    background-color: white;
+    grid-area: a7;
+    border: 3px solid gray;
+}
+.box9{
+    background-color: antiquewhite;
+    display: grid;
+    padding: 3px;
+    grid-template-areas: 
+    "b1 b2 b3 b4"
+    "b5 b5 b6 b6"
+    "b7 b8 b9 b10"
+    ;
+}
+
+.b1{
+    background-color: white;
+    grid-area: b1;
+    border: 3px solid gray;
+}
+.b2{
+    background-color: white;
+    grid-area: b2;
+    border: 3px solid gray;
+}
+.b3{
+    background-color: white;
+    grid-area: b3;
+    border: 3px solid gray;
+}
+.b4{
+    background-color: white;
+    grid-area: b4;
+    border: 3px solid gray;
+}
+.b5{
+    background-color: white;
+    grid-area: b5;
+    border: 3px solid gray;
+}
+.b6{
+    background-color: white;
+    grid-area: b6;
+    border: 3px solid gray;
+}
+.b7{
+    background-color: white;
+    grid-area: b7;
+    border: 3px solid gray;
+}
+.b8{
+    background-color: white;
+    grid-area: b8;
+    border: 3px solid gray;
+}
+.b9{
+    background-color: white;
+    grid-area: b9;
+    border: 3px solid gray;
+}
+.b10{
+    background-color: white;
+    grid-area: b10;
+    border: 3px solid gray;
+}
